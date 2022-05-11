@@ -4,8 +4,8 @@ number="0123456789"
 specialchar="&#{'([-|_\^@)]}$*%/?!<>²"
 possib=["char","number"]
 lenght=int(input("Entrez la longueur de votre mot de passe : "))
-specialchars=(input("Voulez vous des characteres spéciaux [O/n] : "))
-majuscules=(input("Voulez vous des majuscules [O/n] : "))
+specialchars=(input("Voulez vous des characteres spéciaux [O/n] : ")).upper()
+majuscules=(input("Voulez vous des majuscules [O/n] : ")).upper()
 if specialchars=="O":
     possib.append("specialchars")
 if majuscules=="O":
